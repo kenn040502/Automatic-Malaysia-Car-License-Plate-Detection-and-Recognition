@@ -34,8 +34,8 @@ workspace/
 │   ├── test_yolo.py                 # YOLO inference
 │   ├── train_ssd.py                 # SSD training script (custom or torchvision)
 │   ├── test_ssd.py                  # SSD testing
-│   ├── ocr_tesseract_predict.py     # OCR using Tesseract
-│   └── ocr_vit_predict.py           # OCR using ViT model
+│   ├── ocr_tesseract.py     # OCR using Tesseract
+│   └── ocr_vit.py           # OCR using ViT model
 │
 ├── test_images/                     # Final testing folder
 ├── runs/                            # YOLO-generated outputs
