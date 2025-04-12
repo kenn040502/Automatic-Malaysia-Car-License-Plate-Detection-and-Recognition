@@ -25,7 +25,7 @@ workspace/
 │
 ├── scripts/
 │   ├── convert_xml_to_yolo.py       # Converts XML (VOC) → YOLO format
-│   ├── split_dataset.py             # Optional: split into train/val/test
+│   ├── split_dataset.py             # Optional: split into train/test
 │   ├── crop_plates_for_ocr.py       # Crops license plates for OCR training
 │   ├── train_yolo.py                # YOLO training (Ultralytics)
 │   ├── test_yolo.py                 # YOLO inference
