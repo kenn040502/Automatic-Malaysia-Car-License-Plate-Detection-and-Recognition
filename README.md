@@ -7,7 +7,7 @@ Automatic Malaysia Car License Plate Detection and Recognition (ALPR)
 
 An AI-powered Automatic License Plate Recognition (ALPR) pipeline specifically designed and fine-tuned for Malaysian vehicle license plates. The system combines deep learning-based object detection to locate license plates in static images and real-time video streams with sequence-based character recognition to extract text accurately[cite: 1, 2].
 
-Developed as part of **COS30018 Intelligent Systems** at Swinburne University of Technology[cite: 1, 2].
+Developed as part of **COS30018 Intelligent Systems** at Swinburne University of Technology.
 
 ---
 
