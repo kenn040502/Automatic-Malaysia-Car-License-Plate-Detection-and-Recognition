@@ -26,12 +26,20 @@ Developed as part of **COS30018 Intelligent Systems** at Swinburne University of
 The pipeline processes input through two primary deep learning stages:
 
 +------------------+      +--------------------------+      +-----------------------------+
+
+
 | Input Media      | ---> | Object Detection Module  | ---> | Character Recognition (OCR) |
+
 | (Images / Video) |      | (YOLOv8 / SSD)           |      | (CRNN / ViT / Tesseract)    |
+
 +------------------+      +--------------------------+      +-----------------------------+
+
 |                                    |
+
 v                                    v
+
 Crop Bounding Box                    Extracted Text Output
+
 
 
 1. **Object Detection (Plate Localization):** Evaluates input frames to detect vehicles and pinpoint exact license plate coordinates using bounding boxes.
@@ -90,9 +98,13 @@ OCR architectures were evaluated using exact match word accuracy and Character E
 │   └── ocr/                 # CRNN, TrOCR (ViT), and Tesseract scripts
 
 ├── gui/                     # Tkinter GUI implementation
+
 ├── weights/                 # Trained model weights (.pt files)
+
 ├── main.py                  # Primary entry point for GUI execution
+
 ├── requirements.txt         # Dependencies
+
 └── README.md
 
 
