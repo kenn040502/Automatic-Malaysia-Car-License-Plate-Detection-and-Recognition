@@ -80,10 +80,15 @@ OCR architectures were evaluated using exact match word accuracy and Character E
 ## Repository Structure
 
 ├── assets/                  # Sample output images and system screenshots
+
 ├── data/                    # Dataset directory (Images, Annotations, YAML configs)
+
 ├── models/
+
 │   ├── detection/           # YOLOv8 and SSD model definitions & checkpoints
+
 │   └── ocr/                 # CRNN, TrOCR (ViT), and Tesseract scripts
+
 ├── gui/                     # Tkinter GUI implementation
 ├── weights/                 # Trained model weights (.pt files)
 ├── main.py                  # Primary entry point for GUI execution
